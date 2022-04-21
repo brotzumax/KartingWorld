@@ -1,0 +1,656 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER */
+
+.header-container {
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: black;
+}
+
+.header-title {
+    width: 100%;
+}
+
+.header-title h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.header-title h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.header-nav-list {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-nav-list li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav-list li a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN */
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.section-title {
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 18px;
+    color: crimson;
+}
+
+
+/* SOBRE NOSOTROS */
+
+.section-sobreNosotros {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-sobreNosotros p {
+    margin: 0;
+    font-size: 16px;
+    padding-top: 10px;
+    order: 1;
+}
+
+.section-sobreNosotros img {
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    order: 0;
+}
+
+
+/* NUESTRO EQUIPO */
+
+.nuestroEquipo h2 {
+    text-align: right;
+    color: black;
+}
+
+.section-nuestroEquipo {
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: dotted;
+    border-radius: 30px;
+    border-color: red;
+}
+
+.section-nuestroEquipo-personas {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-nuestroEquipo-personas img {
+    width: 250px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+.nuestroEquipo p {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+
+/* NUESTRA PISTA */
+
+.section-nuestraPista {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-nuestraPista img {
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.section-nuestraPista div p {
+    font-size: 16px;
+}
+
+.section-nuestraPista-parrafoMedio {
+    color: red;
+}
+
+
+/* RESULTADOS */
+
+.section-resultados {
+    padding-bottom: 60px;
+}
+
+.section-resultados-table {
+    margin-top: 10px;
+    border: solid black 1px;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.section-resultados-table td {
+    border: solid black 1px;
+
+}
+
+
+/* INSCRIPCIONES */
+
+.section-inscripcion {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.section-inscripcion-requisitos p {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.section-inscripcion-requisitosAlerta {
+    color: red;
+}
+
+.section-inscripcion-formulario {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid blue 2px;
+}
+
+.section-inscripcion-formulario div {
+    padding-top: 20px;
+}
+
+.section-inscripcion-formulario input[type=text] {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.section-inscripcion-formulario input[type=email] {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.section-inscripcion-formulario input[type=submit] {
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    background-color: #3d3d9e;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.section-inscripcion-formulario select {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* GALERIA */
+
+.section-galeria {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-galeria div {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.section-galeria div img {
+    width: 100%;
+}
+
+
+/* EVENTOS */
+
+.section-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.section-eventos img {
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+
+
+/* FOOTER */
+
+.footer-container {
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.footer-contacto h3 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.footer-contacto h4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.footer-textArea {
+    margin-top: 10px;
+    display: block;
+}
+
+.footer-telefono {
+    margin: 0px;
+}
+
+.footer-direccion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer-direccion p {
+    margin-bottom: 20px;
+}
+
+.footer-suscribeAndFollow {
+    width: 100%;
+}
+
+.footer-suscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom-style: dotted;
+    border-color: white;
+}
+
+.footer-follow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-follow div {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-follow div a {
+    display: inline-block;
+    height: 54px;
+}
+
+.footer-follow div img {
+    width: 54px;
+    border-radius: 50%;
+}
+
+
+
+
+@media screen and (min-width: 670px) {
+
+    /* HEADER */
+
+    .header-nav-list li a {
+        font-size: 18px;
+    }
+
+    
+    /* GALERIA */
+
+    .section-galeria div {
+        grid-template-columns: 300px 300px;
+        grid-column-gap: 20px;
+    }
+
+    .section-galeria div img {
+        width: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1080px) {
+    /* HEADER */
+
+    .header-container {
+        flex-direction: row;
+    }
+
+    .header-title {
+        width: 50%;
+        border-right-style: solid;
+    }
+
+    .header-nav {
+        width: 50%;
+    }
+
+    .header-nav-list li {
+        display: inline-block;
+        height: 100%;
+        width: 25%;
+    }
+
+    .header-nav-list li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        transition: all .2s ease-in-out;
+    }
+
+
+    /* MAIN */
+
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-image: url("../images/imagenFondo.jpg");
+    }
+
+    .section-title {
+        padding-top: 80px;
+        font-size: 34px;
+    }
+
+
+    /* SOBRE NOSOTROS */
+
+    .section-sobreNosotros {
+        padding-top: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section-sobreNosotros p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+        order: 0;
+    }
+
+    .section-sobreNosotros img {
+        width: 500px;
+        order: 1;
+    }
+
+
+    /* NUESTRO EQUIPO */
+
+    .section-nuestroEquipo {
+        margin-top: 40px;
+        flex-direction: row;
+    }
+
+    .section-nuestroEquipo-personas {
+        width: 33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nuestroEquipo p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+    }
+
+
+    /* NUESTRA PISTA */
+
+    .section-nuestraPista {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section-nuestraPista img {
+        width: 700px;
+    }
+
+    .section-nuestraPista div p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 21px;
+    }
+
+
+    /* RESULTADOS */
+
+    .section-resultados-table {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 500px;
+    }
+
+
+    /* INSCRIPCIONES */
+
+    .section-inscripcion {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .section-inscripcion-requisitos p {
+        padding-left: 20px;
+        padding-right: 40px;
+        font-size: 21px;
+    }
+
+    .section-inscripcion-formulario {
+        margin-top: 80px;
+        margin-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+
+    .section-inscripcion-formulario input[type=text] {
+        width: 300px;
+    }
+
+    .section-inscripcion-formulario input[type=email] {
+        width: 300px;
+    }
+
+    .section-inscripcion-formulario input[type=submit] {
+        width: 300px;
+    }
+
+    .section-inscripcion-formulario select {
+        width: 300px;
+    }
+
+
+    /* GALERIA */
+
+    .section-galeria {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .section-galeria div {
+        grid-template-columns: 300px 300px 300px;
+        grid-column-gap: 60px;
+        grid-row-gap: 60px;
+    }
+
+
+    /* EVENTOS */
+
+    .section-eventos img {
+        padding-top: 20px;
+    }
+
+
+    /* FOOTER */
+
+    .footer-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .footer-text {
+        color: white;
+    }
+
+    .footer-contacto {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .footer-contacto h4 {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .footer-textArea {
+        display: block;
+    }
+
+    .footer-telefono {
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+    .footer-direccion {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-direccion p {
+        margin-bottom: 36px;
+    }
+
+    .footer-suscribeAndFollow {
+        width: 33%;
+    }
+
+    .footer-suscribe {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom-style: dotted;
+        border-color: white;
+    }
+
+    .footer-follow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+.header-nav-list li a:hover {
+    background-color: rgb(128, 2, 27);
+}
